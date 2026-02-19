@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.dark {
+  background: #383737;
+  color: white;
+}
+
+.dark li {
+  background: #464545;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle {
+  background: #444343;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.toggle:hover {
+  background: #555;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+input:focus {
+  border-color: #cd28b4;
+  outline: none;
+}
+.input-section button {
+  background: #d227b8;
+  color: white;
+}
+
+.input-section button:hover {
+  background: #7b0e87;
+  transform: translateY(-2px);
+}
+button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.edit {
+  background: #4caf50;
+  color: white;
+}
+.edit:hover {
+  background: #43a047;
+  transform: scale(1.05);
+}
+
+.delete {
+  background: #ff4d4d;
+  color: white;
+}
+.delete:hover {
+  background: #e60000;
+  transform: scale(1.05);
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s, background 0.3s;
+}
+li:hover {
+  transform: scale(1.02);
+  background: #f1f1f1;
+}
+.actions {
+  display: flex;
+  gap: 5px;
+}
