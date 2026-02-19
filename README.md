@@ -29,12 +29,6 @@ A modern Notes Application built using Angular 21 with Signals and LocalStorage.
 
 ---
 
-## 📸 Preview
-
-(Add screenshot here later)
-
----
-
 ## 📦 Installation
 
 Clone the repository:
